@@ -1,0 +1,424 @@
+ADAPTIVE_NPLN_FLAG	1	ADAPTIVE_NPLN_FLAG	1	ADAPTIVE_NPLN_FLAG	3	ADAPTIVE_NPLN_FLAG	2
+BATCH_PARAM_OPT	0	BATCH_PARAM_OPT	1	BATCH_PARAM_OPT	0	BATCH_PARAM_OPT	1
+BDTA_SIZE	2606	BDTA_SIZE	5942	BDTA_SIZE	3279	BDTA_SIZE	9120
+BTR_SPLIT_MODE	0	BTR_SPLIT_MODE	0	BTR_SPLIT_MODE	1	BTR_SPLIT_MODE	0
+BUFFER	1029693	BUFFER	51281	BUFFER	808399	BUFFER	743798
+BUFFER_POOLS	114	BUFFER_POOLS	28	BUFFER_POOLS	416	BUFFER_POOLS	321
+CACHE_POOL_SIZE	21889522	CACHE_POOL_SIZE	46936313	CACHE_POOL_SIZE	13354171	CACHE_POOL_SIZE	51436114
+CASE_WHEN_CVT_IFUN	4	CASE_WHEN_CVT_IFUN	1	CASE_WHEN_CVT_IFUN	8	CASE_WHEN_CVT_IFUN	12
+CKPT_DIRTY_PAGES	1785629207	CKPT_DIRTY_PAGES	977502495	CKPT_DIRTY_PAGES	3193412327	CKPT_DIRTY_PAGES	4284732603
+CKPT_FLUSH_PAGES	50072	CKPT_FLUSH_PAGES	95658	CKPT_FLUSH_PAGES	32728	CKPT_FLUSH_PAGES	6357
+CKPT_FLUSH_RATE	89.36246037483215	CKPT_FLUSH_RATE	99.14872143417597	CKPT_FLUSH_RATE	27.593850251287222	CKPT_FLUSH_RATE	22.040477767586708
+CKPT_INTERVAL	1898633793	CKPT_INTERVAL	1655828497	CKPT_INTERVAL	816323470	CKPT_INTERVAL	21216822
+CKPT_RLOG_SIZE	3569073835	CKPT_RLOG_SIZE	2516737423	CKPT_RLOG_SIZE	1270765011	CKPT_RLOG_SIZE	3334017615
+CKPT_WAIT_PAGES	29180	CKPT_WAIT_PAGES	33107	CKPT_WAIT_PAGES	25933	CKPT_WAIT_PAGES	56889
+CLT_CONST_TO_PARAM	1	CLT_CONST_TO_PARAM	0	CLT_CONST_TO_PARAM	1	CLT_CONST_TO_PARAM	1
+CNNTB_HASH_TABLE_SIZE	87936423	CNNTB_HASH_TABLE_SIZE	32826495	CNNTB_HASH_TABLE_SIZE	74502216	CNNTB_HASH_TABLE_SIZE	9906344
+CNNTB_OPT_FLAG	219	CNNTB_OPT_FLAG	50	CNNTB_OPT_FLAG	162	CNNTB_OPT_FLAG	254
+COMM_VALIDATE	2	COMM_VALIDATE	0	COMM_VALIDATE	2	COMM_VALIDATE	1
+COMPLEX_VIEW_MERGING	1	COMPLEX_VIEW_MERGING	2	COMPLEX_VIEW_MERGING	1	COMPLEX_VIEW_MERGING	0
+CTE_OPT_FLAG	0	CTE_OPT_FLAG	1	CTE_OPT_FLAG	0	CTE_OPT_FLAG	1
+DECIMAL_FIX_STORAGE	1	DECIMAL_FIX_STORAGE	0	DECIMAL_FIX_STORAGE	1	DECIMAL_FIX_STORAGE	0
+DEL_HP_OPT_FLAG	27	DEL_HP_OPT_FLAG	15	DEL_HP_OPT_FLAG	20	DEL_HP_OPT_FLAG	25
+DICT_BUF_SIZE	120	DICT_BUF_SIZE	1115	DICT_BUF_SIZE	245	DICT_BUF_SIZE	1866
+DIRECT_IO	1	DIRECT_IO	1	DIRECT_IO	2	DIRECT_IO	0
+DISTINCT_USE_INDEX_SKIP	2	DISTINCT_USE_INDEX_SKIP	1	DISTINCT_USE_INDEX_SKIP	1	DISTINCT_USE_INDEX_SKIP	2
+DIST_HASH_ALGORITHM_FLAG	1	DIST_HASH_ALGORITHM_FLAG	0	DIST_HASH_ALGORITHM_FLAG	1	DIST_HASH_ALGORITHM_FLAG	1
+DTABLE_PULLUP_FLAG	1	DTABLE_PULLUP_FLAG	1	DTABLE_PULLUP_FLAG	0	DTABLE_PULLUP_FLAG	1
+DYNAMIC_CALC_NODES	1	DYNAMIC_CALC_NODES	0	DYNAMIC_CALC_NODES	1	DYNAMIC_CALC_NODES	1
+ENABLE_ADJUST_DIST_COST	1	ENABLE_ADJUST_DIST_COST	2	ENABLE_ADJUST_DIST_COST	1	ENABLE_ADJUST_DIST_COST	1
+ENABLE_ADJUST_NLI_COST	0	ENABLE_ADJUST_NLI_COST	1	ENABLE_ADJUST_NLI_COST	0	ENABLE_ADJUST_NLI_COST	0
+ENABLE_CHOOSE_BY_ESTIMATE_FLAG	5	ENABLE_CHOOSE_BY_ESTIMATE_FLAG	0	ENABLE_CHOOSE_BY_ESTIMATE_FLAG	7	ENABLE_CHOOSE_BY_ESTIMATE_FLAG	2
+ENABLE_DIST_IN_SUBQUERY_OPT	7	ENABLE_DIST_IN_SUBQUERY_OPT	6	ENABLE_DIST_IN_SUBQUERY_OPT	0	ENABLE_DIST_IN_SUBQUERY_OPT	5
+ENABLE_FREQROOTS	2	ENABLE_FREQROOTS	2	ENABLE_FREQROOTS	1	ENABLE_FREQROOTS	3
+ENABLE_HASH_JOIN	0	ENABLE_HASH_JOIN	0	ENABLE_HASH_JOIN	1	ENABLE_HASH_JOIN	1
+ENABLE_INDEX_FILTER	0	ENABLE_INDEX_FILTER	0	ENABLE_INDEX_FILTER	2	ENABLE_INDEX_FILTER	2
+ENABLE_INDEX_JOIN	1	ENABLE_INDEX_JOIN	0	ENABLE_INDEX_JOIN	1	ENABLE_INDEX_JOIN	1
+ENABLE_IN_VALUE_LIST_OPT	13	ENABLE_IN_VALUE_LIST_OPT	10	ENABLE_IN_VALUE_LIST_OPT	1	ENABLE_IN_VALUE_LIST_OPT	12
+ENABLE_JOIN_FACTORIZATION	1	ENABLE_JOIN_FACTORIZATION	0	ENABLE_JOIN_FACTORIZATION	1	ENABLE_JOIN_FACTORIZATION	0
+ENABLE_MERGE_JOIN	1	ENABLE_MERGE_JOIN	0	ENABLE_MERGE_JOIN	1	ENABLE_MERGE_JOIN	0
+ENABLE_MONITOR	0	ENABLE_MONITOR	1	ENABLE_MONITOR	0	ENABLE_MONITOR	1
+ENABLE_NEST_LOOP_JOIN_CACHE	0	ENABLE_NEST_LOOP_JOIN_CACHE	3	ENABLE_NEST_LOOP_JOIN_CACHE	0	ENABLE_NEST_LOOP_JOIN_CACHE	2
+ENABLE_PARTITION_WISE_OPT	0	ENABLE_PARTITION_WISE_OPT	1	ENABLE_PARTITION_WISE_OPT	0	ENABLE_PARTITION_WISE_OPT	0
+ENABLE_RQ_TO_INV	0	ENABLE_RQ_TO_INV	0	ENABLE_RQ_TO_INV	2	ENABLE_RQ_TO_INV	0
+ENABLE_RQ_TO_NONREF_SPL	3	ENABLE_RQ_TO_NONREF_SPL	3	ENABLE_RQ_TO_NONREF_SPL	7	ENABLE_RQ_TO_NONREF_SPL	0
+ENABLE_RQ_TO_SPL	1	ENABLE_RQ_TO_SPL	0	ENABLE_RQ_TO_SPL	1	ENABLE_RQ_TO_SPL	1
+ENHANCED_BEXP_TRANS_GEN	3	ENHANCED_BEXP_TRANS_GEN	0	ENHANCED_BEXP_TRANS_GEN	3	ENHANCED_BEXP_TRANS_GEN	1
+ENHANCED_SUBQ_MERGING	0	ENHANCED_SUBQ_MERGING	0	ENHANCED_SUBQ_MERGING	3	ENHANCED_SUBQ_MERGING	1
+FAST_POOL_PAGES	22748253	FAST_POOL_PAGES	92428974	FAST_POOL_PAGES	3555017	FAST_POOL_PAGES	69249366
+FAST_RELEASE_SLOCK	0	FAST_RELEASE_SLOCK	0	FAST_RELEASE_SLOCK	1	FAST_RELEASE_SLOCK	1
+FAST_ROLL_PAGES	6027000	FAST_ROLL_PAGES	7460786	FAST_ROLL_PAGES	316679	FAST_ROLL_PAGES	4804762
+FAST_RW_LOCK	0	FAST_RW_LOCK	1	FAST_RW_LOCK	1	FAST_RW_LOCK	0
+FILTER_PUSH_DOWN	6	FILTER_PUSH_DOWN	0	FILTER_PUSH_DOWN	13	FILTER_PUSH_DOWN	7
+FINS_LOCK_MODE	1	FINS_LOCK_MODE	2	FINS_LOCK_MODE	1	FINS_LOCK_MODE	0
+FIRST_ROWS	41763	FIRST_ROWS	317250	FIRST_ROWS	754673	FIRST_ROWS	67982
+FORCE_FLUSH_PAGES	770	FORCE_FLUSH_PAGES	175	FORCE_FLUSH_PAGES	901	FORCE_FLUSH_PAGES	386
+FROM_OPT_FLAG	0	FROM_OPT_FLAG	0	FROM_OPT_FLAG	1	FROM_OPT_FLAG	1
+FTAB_MEM_SIZE	35533	FTAB_MEM_SIZE	61140	FTAB_MEM_SIZE	14001	FTAB_MEM_SIZE	39867
+GLOBAL_RTREE_BUF_SIZE	71119	GLOBAL_RTREE_BUF_SIZE	23925	GLOBAL_RTREE_BUF_SIZE	62264	GLOBAL_RTREE_BUF_SIZE	87994
+GROUP_OPT_FLAG	25	GROUP_OPT_FLAG	38	GROUP_OPT_FLAG	19	GROUP_OPT_FLAG	2
+HAGR_BLK_SIZE	33	HAGR_BLK_SIZE	22	HAGR_BLK_SIZE	42	HAGR_BLK_SIZE	31
+HAGR_BUF_GLOBAL_SIZE	234710	HAGR_BUF_GLOBAL_SIZE	327482	HAGR_BUF_GLOBAL_SIZE	800353	HAGR_BUF_GLOBAL_SIZE	94150
+HAGR_BUF_SIZE	52464	HAGR_BUF_SIZE	73440	HAGR_BUF_SIZE	369609	HAGR_BUF_SIZE	497929
+HAGR_DISTINCT_HASH_TABLE_SIZE	98349873	HAGR_DISTINCT_HASH_TABLE_SIZE	27114877	HAGR_DISTINCT_HASH_TABLE_SIZE	65323155	HAGR_DISTINCT_HASH_TABLE_SIZE	93010309
+HAGR_HASH_ALGORITHM_FLAG	1	HAGR_HASH_ALGORITHM_FLAG	0	HAGR_HASH_ALGORITHM_FLAG	1	HAGR_HASH_ALGORITHM_FLAG	1
+HAGR_HASH_SIZE	93264015	HAGR_HASH_SIZE	6714091	HAGR_HASH_SIZE	81397819	HAGR_HASH_SIZE	68351829
+HASH_CMP_OPT_FLAG	10	HASH_CMP_OPT_FLAG	1	HASH_CMP_OPT_FLAG	8	HASH_CMP_OPT_FLAG	12
+HASH_PLL_OPT_FLAG	29	HASH_PLL_OPT_FLAG	5	HASH_PLL_OPT_FLAG	49	HASH_PLL_OPT_FLAG	44
+HFINS_MAX_THRD_NUM	97	HFINS_MAX_THRD_NUM	131	HFINS_MAX_THRD_NUM	17	HFINS_MAX_THRD_NUM	83
+HFINS_PARALLEL_FLAG	2	HFINS_PARALLEL_FLAG	2	HFINS_PARALLEL_FLAG	0	HFINS_PARALLEL_FLAG	1
+HFS_CACHE_SIZE	1184	HFS_CACHE_SIZE	313	HFS_CACHE_SIZE	1709	HFS_CACHE_SIZE	1206
+HIO_THR_GROUPS	207	HIO_THR_GROUPS	226	HIO_THR_GROUPS	355	HIO_THR_GROUPS	55
+HJ_BUF_GLOBAL_SIZE	478557	HJ_BUF_GLOBAL_SIZE	388270	HJ_BUF_GLOBAL_SIZE	79142	HJ_BUF_GLOBAL_SIZE	145441
+HJ_BUF_SIZE	7495	HJ_BUF_SIZE	30427	HJ_BUF_SIZE	58716	HJ_BUF_SIZE	88859
+HLSM_FLAG	1	HLSM_FLAG	3	HLSM_FLAG	1	HLSM_FLAG	1
+HUGE_BUFFER	969572	HUGE_BUFFER	737201	HUGE_BUFFER	467257	HUGE_BUFFER	200708
+HUGE_BUFFER_POOLS	130	HUGE_BUFFER_POOLS	309	HUGE_BUFFER_POOLS	2	HUGE_BUFFER_POOLS	234
+HUGE_MEMORY_PERCENTAGE	98.44399517122656	HUGE_MEMORY_PERCENTAGE	32.48402933962643	HUGE_MEMORY_PERCENTAGE	83.44021660648286	HUGE_MEMORY_PERCENTAGE	9.968273557722569
+INDEX_SKIP_SCAN_RATE	0.49554553534835577	INDEX_SKIP_SCAN_RATE	0.39280814304947853	INDEX_SKIP_SCAN_RATE	0.8697751462459564	INDEX_SKIP_SCAN_RATE	0.23756562173366547
+IN_LIST_AS_JOIN_KEY	0	IN_LIST_AS_JOIN_KEY	0	IN_LIST_AS_JOIN_KEY	1	IN_LIST_AS_JOIN_KEY	0
+IO_THR_GROUPS	307	IO_THR_GROUPS	361	IO_THR_GROUPS	218	IO_THR_GROUPS	75
+JOIN_HASH_SIZE	99939300	JOIN_HASH_SIZE	31689049	JOIN_HASH_SIZE	145876309	JOIN_HASH_SIZE	193596300
+KEEP	604419	KEEP	46075	KEEP	775545	KEEP	1039520
+LDIS_NEW_FOLD_FUN	1	LDIS_NEW_FOLD_FUN	1	LDIS_NEW_FOLD_FUN	0	LDIS_NEW_FOLD_FUN	1
+LIKE_OPT_FLAG	38	LIKE_OPT_FLAG	83	LIKE_OPT_FLAG	43	LIKE_OPT_FLAG	125
+LOCK_DICT_OPT	2	LOCK_DICT_OPT	1	LOCK_DICT_OPT	0	LOCK_DICT_OPT	0
+LOCK_TID_MODE	1	LOCK_TID_MODE	1	LOCK_TID_MODE	0	LOCK_TID_MODE	0
+LOCK_TID_UPGRADE	1	LOCK_TID_UPGRADE	0	LOCK_TID_UPGRADE	1	LOCK_TID_UPGRADE	1
+MAX_N_GRP_PUSH_DOWN	370	MAX_N_GRP_PUSH_DOWN	392	MAX_N_GRP_PUSH_DOWN	719	MAX_N_GRP_PUSH_DOWN	190
+MAX_OPT_N_TABLES	6	MAX_OPT_N_TABLES	3	MAX_OPT_N_TABLES	8	MAX_OPT_N_TABLES	5
+MAX_PARALLEL_DEGREE	114	MAX_PARALLEL_DEGREE	124	MAX_PARALLEL_DEGREE	38	MAX_PARALLEL_DEGREE	13
+MAX_PHC_BE_NUM	8891637	MAX_PHC_BE_NUM	10723657	MAX_PHC_BE_NUM	4857829	MAX_PHC_BE_NUM	19319858
+MEMORY_EXTENT_SIZE	2524	MEMORY_EXTENT_SIZE	679	MEMORY_EXTENT_SIZE	5540	MEMORY_EXTENT_SIZE	7817
+MEMORY_N_POOLS	1992	MEMORY_N_POOLS	1577	MEMORY_N_POOLS	532	MEMORY_N_POOLS	1136
+MEMORY_POOL	9206162	MEMORY_POOL	25665306	MEMORY_POOL	43457438	MEMORY_POOL	813724
+MEMORY_TARGET	30800827	MEMORY_TARGET	40226155	MEMORY_TARGET	29206132	MEMORY_TARGET	9628802
+MMT_FLAG	1	MMT_FLAG	2	MMT_FLAG	1	MMT_FLAG	2
+MMT_GLOBAL_SIZE	219604	MMT_GLOBAL_SIZE	134358	MMT_GLOBAL_SIZE	918840	MMT_GLOBAL_SIZE	692742
+MMT_SIZE	29	MMT_SIZE	51	MMT_SIZE	7	MMT_SIZE	47
+MSG_COMPRESS_TYPE	0	MSG_COMPRESS_TYPE	1	MSG_COMPRESS_TYPE	2	MSG_COMPRESS_TYPE	0
+MTAB_MEM_SIZE	390037	MTAB_MEM_SIZE	17800	MTAB_MEM_SIZE	1010023	MTAB_MEM_SIZE	726953
+MULTI_IN_CVT_EXISTS	0	MULTI_IN_CVT_EXISTS	0	MULTI_IN_CVT_EXISTS	1	MULTI_IN_CVT_EXISTS	0
+MULTI_PAGE_GET_NUM	12	MULTI_PAGE_GET_NUM	46	MULTI_PAGE_GET_NUM	28	MULTI_PAGE_GET_NUM	53
+NBEXP_OPT_FLAG	6	NBEXP_OPT_FLAG	4	NBEXP_OPT_FLAG	3	NBEXP_OPT_FLAG	1
+NEW_MOTION	0	NEW_MOTION	0	NEW_MOTION	1	NEW_MOTION	0
+NONCONST_OR_CVT_IN_LST_FLAG	0	NONCONST_OR_CVT_IN_LST_FLAG	1	NONCONST_OR_CVT_IN_LST_FLAG	0	NONCONST_OR_CVT_IN_LST_FLAG	0
+NONREFED_SUBQUERY_AS_CONST	1	NONREFED_SUBQUERY_AS_CONST	0	NONREFED_SUBQUERY_AS_CONST	1	NONREFED_SUBQUERY_AS_CONST	0
+NOWAIT_WHEN_UNIQUE_CONFLICT	0	NOWAIT_WHEN_UNIQUE_CONFLICT	0	NOWAIT_WHEN_UNIQUE_CONFLICT	1	NOWAIT_WHEN_UNIQUE_CONFLICT	0
+OLAP_FLAG	2	OLAP_FLAG	1	OLAP_FLAG	1	OLAP_FLAG	0
+OPTIMIZER_AGGR_GROUPBY_ELIM	1	OPTIMIZER_AGGR_GROUPBY_ELIM	0	OPTIMIZER_AGGR_GROUPBY_ELIM	1	OPTIMIZER_AGGR_GROUPBY_ELIM	1
+OPTIMIZER_DYNAMIC_SAMPLING	5	OPTIMIZER_DYNAMIC_SAMPLING	2	OPTIMIZER_DYNAMIC_SAMPLING	10	OPTIMIZER_DYNAMIC_SAMPLING	4
+OPTIMIZER_MAX_PERM	58614100	OPTIMIZER_MAX_PERM	494663032	OPTIMIZER_MAX_PERM	3464729487	OPTIMIZER_MAX_PERM	1391967360
+OPTIMIZER_MODE	0	OPTIMIZER_MODE	1	OPTIMIZER_MODE	0	OPTIMIZER_MODE	0
+OPTIMIZER_OR_NBEXP	15	OPTIMIZER_OR_NBEXP	17	OPTIMIZER_OR_NBEXP	6	OPTIMIZER_OR_NBEXP	26
+OPT_OR_FOR_HUGE_TABLE_FLAG	0	OPT_OR_FOR_HUGE_TABLE_FLAG	0	OPT_OR_FOR_HUGE_TABLE_FLAG	1	OPT_OR_FOR_HUGE_TABLE_FLAG	1
+OP_SUBQ_CVT_IN_FLAG	1	OP_SUBQ_CVT_IN_FLAG	0	OP_SUBQ_CVT_IN_FLAG	1	OP_SUBQ_CVT_IN_FLAG	0
+OR_CVT_HTAB_FLAG	2	OR_CVT_HTAB_FLAG	0	OR_CVT_HTAB_FLAG	1	OR_CVT_HTAB_FLAG	0
+OR_NBEXP_CVT_CASE_WHEN_FLAG	0	OR_NBEXP_CVT_CASE_WHEN_FLAG	0	OR_NBEXP_CVT_CASE_WHEN_FLAG	1	OR_NBEXP_CVT_CASE_WHEN_FLAG	1
+OUTER_CVT_INNER_PULL_UP_COND_FLAG	2	OUTER_CVT_INNER_PULL_UP_COND_FLAG	2	OUTER_CVT_INNER_PULL_UP_COND_FLAG	3	OUTER_CVT_INNER_PULL_UP_COND_FLAG	1
+OUTER_JOIN_FLATING_FLAG	1	OUTER_JOIN_FLATING_FLAG	1	OUTER_JOIN_FLATING_FLAG	0	OUTER_JOIN_FLATING_FLAG	0
+OUTER_JOIN_INDEX_OPT_FLAG	1	OUTER_JOIN_INDEX_OPT_FLAG	0	OUTER_JOIN_INDEX_OPT_FLAG	1	OUTER_JOIN_INDEX_OPT_FLAG	1
+OUTER_OPT_NLO_FLAG	4	OUTER_OPT_NLO_FLAG	7	OUTER_OPT_NLO_FLAG	3	OUTER_OPT_NLO_FLAG	5
+PARALLEL_MODE_COMMON_DEGREE	516	PARALLEL_MODE_COMMON_DEGREE	608	PARALLEL_MODE_COMMON_DEGREE	27	PARALLEL_MODE_COMMON_DEGREE	854
+PARALLEL_POLICY	0	PARALLEL_POLICY	2	PARALLEL_POLICY	0	PARALLEL_POLICY	1
+PARALLEL_PURGE_FLAG	1	PARALLEL_PURGE_FLAG	1	PARALLEL_PURGE_FLAG	0	PARALLEL_PURGE_FLAG	1
+PARALLEL_THRD_NUM	989	PARALLEL_THRD_NUM	838	PARALLEL_THRD_NUM	362	PARALLEL_THRD_NUM	172
+PARTIAL_JOIN_EVALUATION_FLAG	1	PARTIAL_JOIN_EVALUATION_FLAG	0	PARTIAL_JOIN_EVALUATION_FLAG	1	PARTIAL_JOIN_EVALUATION_FLAG	0
+PHC_MODE_ENFORCE	6	PHC_MODE_ENFORCE	3	PHC_MODE_ENFORCE	13	PHC_MODE_ENFORCE	5
+PLACE_GROUP_BY_FLAG	2	PLACE_GROUP_BY_FLAG	3	PLACE_GROUP_BY_FLAG	0	PLACE_GROUP_BY_FLAG	2
+PLN_DICT_HASH_THRESHOLD	33086268	PLN_DICT_HASH_THRESHOLD	10425159	PLN_DICT_HASH_THRESHOLD	60518962	PLN_DICT_HASH_THRESHOLD	23304531
+PRJT_REPLACE_NPAR	0	PRJT_REPLACE_NPAR	1	PRJT_REPLACE_NPAR	0	PRJT_REPLACE_NPAR	0
+PSEG_RECV	0	PSEG_RECV	3	PSEG_RECV	0	PSEG_RECV	1
+PURGE_DEL_OPT	0	PURGE_DEL_OPT	2	PURGE_DEL_OPT	0	PURGE_DEL_OPT	2
+PURGE_WAIT_TIME	36773	PURGE_WAIT_TIME	20377	PURGE_WAIT_TIME	54605	PURGE_WAIT_TIME	11880
+PUSH_SUBQ	6	PUSH_SUBQ	7	PUSH_SUBQ	1	PUSH_SUBQ	3
+RECYCLE	850874	RECYCLE	486250	RECYCLE	600983	RECYCLE	210581
+RECYCLE_POOLS	148	RECYCLE_POOLS	8	RECYCLE_POOLS	360	RECYCLE_POOLS	456
+REFED_EXISTS_OPT_FLAG	3	REFED_EXISTS_OPT_FLAG	2	REFED_EXISTS_OPT_FLAG	0	REFED_EXISTS_OPT_FLAG	1
+REFED_OPS_SUBQUERY_OPT_FLAG	3	REFED_OPS_SUBQUERY_OPT_FLAG	3	REFED_OPS_SUBQUERY_OPT_FLAG	5	REFED_OPS_SUBQUERY_OPT_FLAG	7
+REFED_SUBQ_CROSS_FLAG	0	REFED_SUBQ_CROSS_FLAG	1	REFED_SUBQ_CROSS_FLAG	0	REFED_SUBQ_CROSS_FLAG	0
+RLOG_BUF_SIZE	3488	RLOG_BUF_SIZE	7144	RLOG_BUF_SIZE	20219	RLOG_BUF_SIZE	1966
+RLOG_PARALLEL_ENABLE	1	RLOG_PARALLEL_ENABLE	2	RLOG_PARALLEL_ENABLE	0	RLOG_PARALLEL_ENABLE	2
+RLOG_POOL_SIZE	2949	RLOG_POOL_SIZE	1975	RLOG_POOL_SIZE	3516	RLOG_POOL_SIZE	2647
+RS_BDTA_BUF_SIZE	8768	RS_BDTA_BUF_SIZE	6154	RS_BDTA_BUF_SIZE	21483	RS_BDTA_BUF_SIZE	32759
+RS_BDTA_FLAG	0	RS_BDTA_FLAG	0	RS_BDTA_FLAG	2	RS_BDTA_FLAG	0
+RT_HEAP_TARGET	6065747	RT_HEAP_TARGET	8095905	RT_HEAP_TARGET	615571	RT_HEAP_TARGET	6971288
+SEL_ITEM_HTAB_FLAG	1	SEL_ITEM_HTAB_FLAG	11	SEL_ITEM_HTAB_FLAG	4	SEL_ITEM_HTAB_FLAG	2
+SEL_RATE_EQU	0.14314298145473003	SEL_RATE_EQU	0.2250603586435318	SEL_RATE_EQU	0.8105852669104934	SEL_RATE_EQU	0.265305464155972
+SEL_RATE_SINGLE	0.8431335631757975	SEL_RATE_SINGLE	0.5400081211701035	SEL_RATE_SINGLE	0.42154377698898315	SEL_RATE_SINGLE	0.07444226648658514
+SESS_POOL_SIZE	307085	SESS_POOL_SIZE	673216	SESS_POOL_SIZE	10451	SESS_POOL_SIZE	1027909
+SESS_POOL_TARGET	377440	SESS_POOL_TARGET	5142353	SESS_POOL_TARGET	5608364	SESS_POOL_TARGET	9788878
+SINGLE_RTREE_BUF_SIZE	625	SINGLE_RTREE_BUF_SIZE	962	SINGLE_RTREE_BUF_SIZE	440	SINGLE_RTREE_BUF_SIZE	563
+SORT_ADAPTIVE_FLAG	3	SORT_ADAPTIVE_FLAG	1	SORT_ADAPTIVE_FLAG	3	SORT_ADAPTIVE_FLAG	2
+SORT_BLK_SIZE	35	SORT_BLK_SIZE	25	SORT_BLK_SIZE	42	SORT_BLK_SIZE	8
+SORT_BUF_GLOBAL_SIZE	3859175016	SORT_BUF_GLOBAL_SIZE	1299336194	SORT_BUF_GLOBAL_SIZE	3073033938	SORT_BUF_GLOBAL_SIZE	3289204329
+SORT_BUF_SIZE	56	SORT_BUF_SIZE	634	SORT_BUF_SIZE	1843	SORT_BUF_SIZE	136
+SORT_FLAG	3	SORT_FLAG	0	SORT_FLAG	2	SORT_FLAG	1
+SORT_OPT_SIZE	600	SORT_OPT_SIZE	458	SORT_OPT_SIZE	671	SORT_OPT_SIZE	181
+SPEED_SEMI_JOIN_PLAN	23	SPEED_SEMI_JOIN_PLAN	3	SPEED_SEMI_JOIN_PLAN	18	SPEED_SEMI_JOIN_PLAN	15
+SPIN_TIME	454	SPIN_TIME	2993	SPIN_TIME	147	SPIN_TIME	1733
+STAT_ALL	2	STAT_ALL	0	STAT_ALL	4	STAT_ALL	3
+STAT_COLLECT_SIZE	223531	STAT_COLLECT_SIZE	4866578	STAT_COLLECT_SIZE	7859539	STAT_COLLECT_SIZE	6240895
+STAT_OPT_FLAG	0	STAT_OPT_FLAG	1	STAT_OPT_FLAG	0	STAT_OPT_FLAG	1
+SUBQ_CVT_SPL_FLAG	30	SUBQ_CVT_SPL_FLAG	13	SUBQ_CVT_SPL_FLAG	27	SUBQ_CVT_SPL_FLAG	0
+SUBQ_EXP_CVT_FLAG	164	SUBQ_EXP_CVT_FLAG	91	SUBQ_EXP_CVT_FLAG	232	SUBQ_EXP_CVT_FLAG	135
+TASK_THREADS	867	TASK_THREADS	30	TASK_THREADS	749	TASK_THREADS	794
+TEMP_SIZE	881386	TEMP_SIZE	795462	TEMP_SIZE	153392	TEMP_SIZE	585005
+TMP_DEL_OPT	1	TMP_DEL_OPT	0	TMP_DEL_OPT	1	TMP_DEL_OPT	1
+TOP_DIS_HASH_FLAG	0	TOP_DIS_HASH_FLAG	2	TOP_DIS_HASH_FLAG	0	TOP_DIS_HASH_FLAG	1
+TOP_ORDER_ESTIMATE_CARD	2270008543	TOP_ORDER_ESTIMATE_CARD	3975370343	TOP_ORDER_ESTIMATE_CARD	1619111451	TOP_ORDER_ESTIMATE_CARD	3013425763
+TOP_ORDER_OPT_FLAG	13	TOP_ORDER_OPT_FLAG	0	TOP_ORDER_OPT_FLAG	12	TOP_ORDER_OPT_FLAG	6
+TRX_CMTARR_SIZE	938	TRX_CMTARR_SIZE	716	TRX_CMTARR_SIZE	66	TRX_CMTARR_SIZE	812
+TRX_DICT_LOCK_NUM	22622	TRX_DICT_LOCK_NUM	32098	TRX_DICT_LOCK_NUM	73219	TRX_DICT_LOCK_NUM	79434
+TRX_VIEW_MODE	1	TRX_VIEW_MODE	0	TRX_VIEW_MODE	1	TRX_VIEW_MODE	0
+TRX_VIEW_SIZE	46318	TRX_VIEW_SIZE	44417	TRX_VIEW_SIZE	28578	TRX_VIEW_SIZE	59582
+TSORT_OPT	0	TSORT_OPT	1	TSORT_OPT	0	TSORT_OPT	0
+UNDO_EXTENT_NUM	2384	UNDO_EXTENT_NUM	5775	UNDO_EXTENT_NUM	2937	UNDO_EXTENT_NUM	394
+UNDO_RETENTION	2596	UNDO_RETENTION	12505	UNDO_RETENTION	45972	UNDO_RETENTION	67275
+UPD_DEL_OPT	2	UPD_DEL_OPT	2	UPD_DEL_OPT	0	UPD_DEL_OPT	0
+USE_FJ_REMOVE_TABLE_FLAG	0	USE_FJ_REMOVE_TABLE_FLAG	1	USE_FJ_REMOVE_TABLE_FLAG	0	USE_FJ_REMOVE_TABLE_FLAG	0
+USE_FK_REMOVE_TABLES_FLAG	0	USE_FK_REMOVE_TABLES_FLAG	1	USE_FK_REMOVE_TABLES_FLAG	0	USE_FK_REMOVE_TABLES_FLAG	0
+USE_HAGR_FLAG	1	USE_HAGR_FLAG	0	USE_HAGR_FLAG	1	USE_HAGR_FLAG	0
+USE_HTAB	1	USE_HTAB	1	USE_HTAB	0	USE_HTAB	1
+USE_INDEX_SKIP_SCAN	0	USE_INDEX_SKIP_SCAN	2	USE_INDEX_SKIP_SCAN	0	USE_INDEX_SKIP_SCAN	2
+USE_REFER_TAB_ONLY	0	USE_REFER_TAB_ONLY	0	USE_REFER_TAB_ONLY	1	USE_REFER_TAB_ONLY	1
+VIEW_FILTER_MERGING	60	VIEW_FILTER_MERGING	70	VIEW_FILTER_MERGING	275	VIEW_FILTER_MERGING	473
+VIEW_OPT_FLAG	1	VIEW_OPT_FLAG	1	VIEW_OPT_FLAG	0	VIEW_OPT_FLAG	1
+VIEW_PULLUP_FLAG	9	VIEW_PULLUP_FLAG	13	VIEW_PULLUP_FLAG	58	VIEW_PULLUP_FLAG	35
+VIEW_PULLUP_MAX_TAB	10	VIEW_PULLUP_MAX_TAB	11	VIEW_PULLUP_MAX_TAB	1	VIEW_PULLUP_MAX_TAB	7
+VM_MEM_HEAP	1	VM_MEM_HEAP	1	VM_MEM_HEAP	0	VM_MEM_HEAP	2
+VM_POOL_SIZE	213036	VM_POOL_SIZE	315223	VM_POOL_SIZE	1011351	VM_POOL_SIZE	640686
+VM_POOL_TARGET	7446700	VM_POOL_TARGET	6525582	VM_POOL_TARGET	162750	VM_POOL_TARGET	8212525
+VM_STACK_SIZE	19164	VM_STACK_SIZE	75777	VM_STACK_SIZE	235565	VM_STACK_SIZE	15587
+WORKER_CPU_PERCENT	0	WORKER_CPU_PERCENT	92	WORKER_CPU_PERCENT	42	WORKER_CPU_PERCENT	67
+WORKER_THREADS	24	WORKER_THREADS	52	WORKER_THREADS	10	WORKER_THREADS	43
+WORK_THRD_RESERVE_SIZE	803	WORK_THRD_RESERVE_SIZE	479	WORK_THRD_RESERVE_SIZE	982	WORK_THRD_RESERVE_SIZE	710
+WORK_THRD_STACK_SIZE	24937	WORK_THRD_STACK_SIZE	9957	WORK_THRD_STACK_SIZE	18388	WORK_THRD_STACK_SIZE	31654
+tpmc	0.0	tpmc	0.0	tpmc	0.0	tpmc	0.0
+
+def save_paras_metric(paras: dict, metric, file_path):
+    # 读取现有文件内容
+    try:
+        with open(file_path, "r", encoding="utf-8") as file:
+            lines = file.readlines()
+    except FileNotFoundError:
+        lines = []
+
+    # 准备新数据
+    new_data = [f"{key}\t{value}" for key, value in paras.items()] + [f"metric\t{metric}"]
+
+    # 处理文件为空的情况
+    if not lines:
+        lines = ['' for _ in range(len(new_data))]
+
+    # 确保行数一致
+    while len(lines) < len(new_data):
+        lines.append("\n")
+
+    # 追加新数据到每一行的末尾
+    updated_lines = []
+    for line, new_line in zip(lines, new_data):
+        updated_lines.append(line.strip() + "\t" + new_line + "\n")
+
+    # 将更新后的内容写回文件
+    with open(file_path, "w", encoding="utf-8") as file:
+        file.writelines(updated_lines)
+
+
+
+    configspace.add_hyperparameter(UniformIntegerHyperparameter('MEMORY_POOL', 64, 67108864, default_value=500))
+    configspace.add_hyperparameter(UniformIntegerHyperparameter('MEMORY_N_POOLS', 0, 2048, default_value=1))
+    configspace.add_hyperparameter(UniformIntegerHyperparameter('MEMORY_TARGET', 0, 67108864, default_value=15000))
+    configspace.add_hyperparameter(UniformIntegerHyperparameter('MEMORY_EXTENT_SIZE', 1, 10240, default_value=1))
+    configspace.add_hyperparameter(UniformFloatHyperparameter('HUGE_MEMORY_PERCENTAGE', 1, 100, default_value=50))
+    configspace.add_hyperparameter(UniformIntegerHyperparameter('HUGE_BUFFER', 80, 1048576, default_value=80))
+    configspace.add_hyperparameter(UniformIntegerHyperparameter('HUGE_BUFFER_POOLS', 1, 512, default_value=4))
+    configspace.add_hyperparameter(UniformIntegerHyperparameter('BUFFER', 8, 1048576, default_value=1000))
+    configspace.add_hyperparameter(UniformIntegerHyperparameter('BUFFER_POOLS', 1, 512, default_value=19))
+    configspace.add_hyperparameter(UniformIntegerHyperparameter('FAST_POOL_PAGES', 0, 99999999, default_value=3000))
+    configspace.add_hyperparameter(UniformIntegerHyperparameter('FAST_ROLL_PAGES', 0, 9999999, default_value=1000))
+    configspace.add_hyperparameter(UniformIntegerHyperparameter('KEEP', 8, 1048576, default_value=8))
+    configspace.add_hyperparameter(UniformIntegerHyperparameter('RECYCLE', 8, 1048576, default_value=300))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('RECYCLE_POOLS', 1, 512, default_value=19))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('MULTI_PAGE_GET_NUM', 1, 64, default_value=1))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('SORT_FLAG', [0, 1, 2, 3], default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('SORT_ADAPTIVE_FLAG', [0, 1, 2, 3], default_value=0))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('SORT_BUF_SIZE', 1, 2048, default_value=20))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('SORT_BUF_GLOBAL_SIZE', 10, 4294967294, default_value=1000))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('SORT_BLK_SIZE', 1, 50, default_value=1))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('HAGR_HASH_SIZE', 10000, 100000000, default_value=100000))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('HJ_BUF_GLOBAL_SIZE', 10, 500000, default_value=5000))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('HJ_BUF_SIZE', 2, 100000, default_value=1000))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('HAGR_BUF_GLOBAL_SIZE', 10, 1000000, default_value=5000))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('HAGR_BUF_SIZE', 2, 500000, default_value=500))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('HAGR_BLK_SIZE', 1, 50, default_value=2))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('MTAB_MEM_SIZE', 1, 1048576, default_value=8))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('FTAB_MEM_SIZE', 0, 65536, default_value=0))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('MMT_SIZE', 0, 64, default_value=0))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('MMT_GLOBAL_SIZE', 10, 1000000, default_value=4000))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('MMT_FLAG', [1, 2], default_value=1))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('DICT_BUF_SIZE', 1, 2048, default_value=50))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('HFS_CACHE_SIZE', 160, 2000, default_value=160))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('VM_STACK_SIZE', 64, 262144, default_value=256))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('VM_POOL_SIZE', 32, 1048576, default_value=64))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('VM_POOL_TARGET', 0, 10485760, default_value=16384))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('SESS_POOL_SIZE', 16, 1048576, default_value=64))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('SESS_POOL_TARGET', 0, 10485760, default_value=16384))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('RT_HEAP_TARGET', 8192, 10485760, default_value=8192))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('VM_MEM_HEAP', [0, 1, 2], default_value=0))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('HAGR_DISTINCT_HASH_TABLE_SIZE', 10000, 100000000, default_value=10000))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('CNNTB_HASH_TABLE_SIZE', 100, 100000000, default_value=100))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('GLOBAL_RTREE_BUF_SIZE', 0, 100000, default_value=100))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('SINGLE_RTREE_BUF_SIZE', 0, 1000, default_value=10))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('SORT_OPT_SIZE', 0, 1024, default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('TSORT_OPT', [0, 1], default_value=1))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('WORKER_THREADS', 1, 64, default_value=1))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('TASK_THREADS', 1, 1000, default_value=16))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('FAST_RW_LOCK', [0, 1, 2], default_value=1))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('SPIN_TIME', 0, 4000, default_value=4000))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('WORK_THRD_STACK_SIZE', 1024, 32768, default_value=8192))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('WORK_THRD_RESERVE_SIZE', 200, 1024, default_value=200))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('WORKER_CPU_PERCENT', 0, 100, default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('RS_BDTA_FLAG',[0, 2], default_value=0))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('RS_BDTA_BUF_SIZE', 8, 32768, default_value=32))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('MAX_OPT_N_TABLES', 3, 8, default_value=6))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('MAX_N_GRP_PUSH_DOWN', 1, 1024, default_value=5))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('CTE_OPT_FLAG', [0, 1], default_value=1))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('BATCH_PARAM_OPT', [0, 1], default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('CLT_CONST_TO_PARAM', [0, 1], default_value=0))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('LIKE_OPT_FLAG', 0, 127, default_value=127))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('FILTER_PUSH_DOWN', 0, 15, default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('UPD_DEL_OPT', [0, 2], default_value=2))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('ENABLE_DIST_IN_SUBQUERY_OPT', 0, 7, default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('USE_HAGR_FLAG', [0,1], default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('DTABLE_PULLUP_FLAG', [0, 1], default_value=1))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('VIEW_PULLUP_FLAG', 0, 63, default_value=0))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('VIEW_PULLUP_MAX_TAB', 1, 16, default_value=7))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('GROUP_OPT_FLAG', 0, 63, default_value=4))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('FROM_OPT_FLAG', [0,1], default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('REFED_EXISTS_OPT_FLAG', [0,1,2,3], default_value=0))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('REFED_OPS_SUBQUERY_OPT_FLAG', 0, 7, default_value=0))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('MAX_PHC_BE_NUM', 512, 20480000, default_value=512))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('PARTIAL_JOIN_EVALUATION_FLAG', [0,1], default_value=1))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('USE_FK_REMOVE_TABLES_FLAG', [0, 1], default_value=1))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('USE_FJ_REMOVE_TABLE_FLAG', [0, 1], default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('USE_HTAB', [0,1], default_value=0))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('SEL_ITEM_HTAB_FLAG', 0, 15, default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('OR_CVT_HTAB_FLAG', [0,1,2], default_value=1))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('CASE_WHEN_CVT_IFUN', 0, 15, default_value=9))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('OR_NBEXP_CVT_CASE_WHEN_FLAG',[0,1], default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('NONCONST_OR_CVT_IN_LST_FLAG',[0,1], default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('OUTER_CVT_INNER_PULL_UP_COND_FLAG', [1,2,3], default_value=3))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('OPT_OR_FOR_HUGE_TABLE_FLAG', [0, 1], default_value=1))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('SUBQ_CVT_SPL_FLAG', 0, 31, default_value=1))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('ENABLE_RQ_TO_SPL', [0, 1], default_value=1))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('MULTI_IN_CVT_EXISTS', [0,1], default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('PRJT_REPLACE_NPAR', [0,1], default_value=1))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('ENABLE_RQ_TO_INV',[0,1,2], default_value=0))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('SUBQ_EXP_CVT_FLAG', 0, 255, default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('USE_REFER_TAB_ONLY', [0, 1], default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('REFED_SUBQ_CROSS_FLAG', [0,1], default_value=1))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('IN_LIST_AS_JOIN_KEY', [0,1], default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('OUTER_JOIN_INDEX_OPT_FLAG', [0,1], default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('OUTER_JOIN_FLATING_FLAG', [0,1], default_value=0))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('TOP_ORDER_OPT_FLAG', 0,15, default_value=0))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('TOP_ORDER_ESTIMATE_CARD', 0, 4294967294, default_value=300))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('TOP_DIS_HASH_FLAG', [0,1,2], default_value=1))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('ENABLE_RQ_TO_NONREF_SPL',0,7, default_value=0))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('ENABLE_CHOOSE_BY_ESTIMATE_FLAG', 0,7, default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('OPTIMIZER_MODE', [0,1], default_value=1))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('NEW_MOTION', [0,1], default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('LDIS_NEW_FOLD_FUN', [0,1], default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('DYNAMIC_CALC_NODES', [0,1], default_value=0))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('OPTIMIZER_MAX_PERM', 1, 4294967294, default_value=7200))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('ENABLE_INDEX_FILTER', [0,1,2], default_value=0))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('OPTIMIZER_DYNAMIC_SAMPLING', 0,12, default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('NONREFED_SUBQUERY_AS_CONST', [0,1], default_value=0))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('HASH_CMP_OPT_FLAG', 0,15, default_value=0))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('OUTER_OPT_NLO_FLAG', 0, 7, default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('DISTINCT_USE_INDEX_SKIP',[0, 1, 2], default_value=2))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('USE_INDEX_SKIP_SCAN', [0,1,2], default_value=0))
+    # configspace.add_hyperparameter(UniformFloatHyperparameter('INDEX_SKIP_SCAN_RATE', 0, 1, default_value=0.0025))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('SPEED_SEMI_JOIN_PLAN', 0, 31, default_value=9))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('COMPLEX_VIEW_MERGING', [0,1,2], default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('OP_SUBQ_CVT_IN_FLAG', [0,1], default_value=1))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('ENHANCED_SUBQ_MERGING', [0,1,2,3], default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('HLSM_FLAG', [1,2,3], default_value=1))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('DEL_HP_OPT_FLAG', 0, 31, default_value=0))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('OPTIMIZER_OR_NBEXP', 0, 31, default_value=0))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('CNNTB_OPT_FLAG', 0, 255, default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('ADAPTIVE_NPLN_FLAG',[0,1,2,3], default_value=3))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('NBEXP_OPT_FLAG', 0, 7, default_value=7))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('HAGR_HASH_ALGORITHM_FLAG', [0,1], default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('DIST_HASH_ALGORITHM_FLAG', [0,1], default_value=0))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('VIEW_FILTER_MERGING', 0, 511, default_value=138))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('ENABLE_JOIN_FACTORIZATION',[0,1], default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('ENABLE_PARTITION_WISE_OPT',[0,1], default_value=0))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('HASH_PLL_OPT_FLAG', 0, 63, default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('PLACE_GROUP_BY_FLAG', [0,1,2,3], default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('ENABLE_NEST_LOOP_JOIN_CACHE', [0,1,2,3], default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('VIEW_OPT_FLAG', [0,1], default_value=1))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('ENABLE_ADJUST_NLI_COST', [0,1], default_value=1))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('ENABLE_ADJUST_DIST_COST', [0,1,2], default_value=0))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('CKPT_RLOG_SIZE', 0, 4294967294, default_value=128))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('CKPT_DIRTY_PAGES', 0, 4294967294, default_value=0))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('CKPT_INTERVAL', 0, 2147483647, default_value=180))
+    # configspace.add_hyperparameter(UniformFloatHyperparameter('CKPT_FLUSH_RATE', 0, 100.00, default_value=5))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('CKPT_FLUSH_PAGES', 1000, 100000, default_value=1000))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('CKPT_WAIT_PAGES', 1, 65534, default_value=1024))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('FORCE_FLUSH_PAGES', 0, 1000, default_value=8))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('DIRECT_IO', [0,1,2], default_value=0))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('IO_THR_GROUPS', 1, 512, default_value=8))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('HIO_THR_GROUPS', 1, 512, default_value=2))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('TRX_VIEW_SIZE', 16, 65000, default_value=512))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('TRX_VIEW_MODE', [0,1], default_value=1))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('TRX_CMTARR_SIZE', 3, 1000, default_value=10))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('BDTA_SIZE', 1, 10000, default_value=300))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('OLAP_FLAG', [0,1,2 ], default_value=2))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('JOIN_HASH_SIZE', 1, 250000000, default_value=500000))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('TEMP_SIZE', 10, 1048576, default_value=10))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('CACHE_POOL_SIZE', 1, 67108864, default_value=100))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('PLN_DICT_HASH_THRESHOLD', 1, 67108864, default_value=20))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('STAT_COLLECT_SIZE', 0, 10000000, default_value=10000))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('STAT_ALL', [0,1,2,3,4], default_value=0))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('PHC_MODE_ENFORCE', 0, 15, default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('ENABLE_HASH_JOIN', [0,1], default_value=1))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('ENABLE_INDEX_JOIN', [0,1], default_value=1))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('ENABLE_MERGE_JOIN', [0,1], default_value=1))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('MAX_PARALLEL_DEGREE', 0, 128, default_value=1))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('PARALLEL_POLICY', [0,1,2], default_value=1))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('PARALLEL_THRD_NUM', 1, 1024, default_value=10))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('PARALLEL_MODE_COMMON_DEGREE', 1, 1024, default_value=1))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('PUSH_SUBQ', 0, 7, default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('OPTIMIZER_AGGR_GROUPBY_ELIM', [0,1], default_value=1))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('ENABLE_IN_VALUE_LIST_OPT', 0, 15, default_value=6))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('ENHANCED_BEXP_TRANS_GEN',[0,1,2,3], default_value=3))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('FIRST_ROWS', 1, 1000000, default_value=100))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('HFINS_PARALLEL_FLAG', [0,1,2], default_value=0))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('HFINS_MAX_THRD_NUM', 4, 200, default_value=100))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('BTR_SPLIT_MODE', [0,1], default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('DECIMAL_FIX_STORAGE', [0,1], default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('TMP_DEL_OPT', [0,1], default_value=1))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('STAT_OPT_FLAG', [0,1], default_value=0))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('RLOG_BUF_SIZE', 1, 20480, default_value=1024))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('RLOG_POOL_SIZE', 1, 4096, default_value=256))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('RLOG_PARALLEL_ENABLE', [0,1,2], default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('FAST_RELEASE_SLOCK', [0,1], default_value=1))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('LOCK_TID_MODE', [0,1], default_value=1))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('LOCK_TID_UPGRADE', [0,1], default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('NOWAIT_WHEN_UNIQUE_CONFLICT', [0,1], default_value=0))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('UNDO_EXTENT_NUM', 1, 8192, default_value=4))
+    # configspace.add_hyperparameter(UniformFloatHyperparameter('UNDO_RETENTION', 0, 86400, default_value=90))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('PARALLEL_PURGE_FLAG', [0,1], default_value=0))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('PURGE_WAIT_TIME', 0, 60000, default_value=500))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('PSEG_RECV', [0,1,2,3], default_value=3))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('LOCK_DICT_OPT', [0,1,2], default_value=2))
+    # configspace.add_hyperparameter(UniformIntegerHyperparameter('TRX_DICT_LOCK_NUM', 1, 100000, default_value=64))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('FINS_LOCK_MODE', [0,1,2], default_value=1))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('MSG_COMPRESS_TYPE', [0,1,2], default_value=2))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('COMM_VALIDATE', [0,1,2], default_value=1))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('ENABLE_MONITOR', [0,1], default_value=1))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('ENABLE_FREQROOTS', [0,1,2,3], default_value=0))
+    # configspace.add_hyperparameter(CategoricalHyperparameter('PURGE_DEL_OPT', [0,1,2], default_value=0))
+    # configspace.add_hyperparameter(UniformFloatHyperparameter('SEL_RATE_EQU', 0, 1, default_value=0))
+    # configspace.add_hyperparameter(UniformFloatHyperparameter('SEL_RATE_SINGLE', 0, 1, default_value=0))

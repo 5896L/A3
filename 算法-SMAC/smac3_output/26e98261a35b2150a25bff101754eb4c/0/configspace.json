@@ -1,0 +1,792 @@
+{
+  "hyperparameters": [
+    {
+      "name": "ADAPTIVE_NPLN_FLAG",
+      "type": "categorical",
+      "choices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "default": 3,
+      "weights": null
+    },
+    {
+      "name": "BDTA_SIZE",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 1,
+      "upper": 5000,
+      "default": 300,
+      "q": null
+    },
+    {
+      "name": "BTR_SPLIT_MODE",
+      "type": "categorical",
+      "choices": [
+        0,
+        1
+      ],
+      "default": 0,
+      "weights": null
+    },
+    {
+      "name": "BUFFER",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 8192,
+      "upper": 11001,
+      "default": 8192,
+      "q": null
+    },
+    {
+      "name": "BUFFER_POOLS",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 15,
+      "upper": 512,
+      "default": 19,
+      "q": null
+    },
+    {
+      "name": "CACHE_POOL_SIZE",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 80,
+      "upper": 1000,
+      "default": 100,
+      "q": null
+    },
+    {
+      "name": "CASE_WHEN_CVT_IFUN",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 0,
+      "upper": 15,
+      "default": 9,
+      "q": null
+    },
+    {
+      "name": "CKPT_DIRTY_PAGES",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 0,
+      "upper": 100,
+      "default": 0,
+      "q": null
+    },
+    {
+      "name": "CKPT_FLUSH_PAGES",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 1000,
+      "upper": 5000,
+      "default": 1000,
+      "q": null
+    },
+    {
+      "name": "CKPT_FLUSH_RATE",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 0,
+      "upper": 100,
+      "default": 5,
+      "q": null
+    },
+    {
+      "name": "CKPT_INTERVAL",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 0,
+      "upper": 1000,
+      "default": 180,
+      "q": null
+    },
+    {
+      "name": "CKPT_RLOG_SIZE",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 0,
+      "upper": 1000,
+      "default": 128,
+      "q": null
+    },
+    {
+      "name": "CKPT_WAIT_PAGES",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 1,
+      "upper": 10240,
+      "default": 1024,
+      "q": null
+    },
+    {
+      "name": "COMM_VALIDATE",
+      "type": "categorical",
+      "choices": [
+        0,
+        1,
+        2
+      ],
+      "default": 1,
+      "weights": null
+    },
+    {
+      "name": "COMPLEX_VIEW_MERGING",
+      "type": "categorical",
+      "choices": [
+        0,
+        1,
+        2
+      ],
+      "default": 0,
+      "weights": null
+    },
+    {
+      "name": "DECIMAL_FIX_STORAGE",
+      "type": "categorical",
+      "choices": [
+        0,
+        1
+      ],
+      "default": 0,
+      "weights": null
+    },
+    {
+      "name": "DICT_BUF_SIZE",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 48,
+      "upper": 200,
+      "default": 50,
+      "q": null
+    },
+    {
+      "name": "DIRECT_IO",
+      "type": "categorical",
+      "choices": [
+        0,
+        1,
+        2
+      ],
+      "default": 0,
+      "weights": null
+    },
+    {
+      "name": "ENABLE_FREQROOTS",
+      "type": "categorical",
+      "choices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "default": 0,
+      "weights": null
+    },
+    {
+      "name": "ENABLE_HASH_JOIN",
+      "type": "categorical",
+      "choices": [
+        0,
+        1
+      ],
+      "default": 1,
+      "weights": null
+    },
+    {
+      "name": "ENABLE_INDEX_JOIN",
+      "type": "categorical",
+      "choices": [
+        0,
+        1
+      ],
+      "default": 1,
+      "weights": null
+    },
+    {
+      "name": "ENABLE_IN_VALUE_LIST_OPT",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 0,
+      "upper": 15,
+      "default": 6,
+      "q": null
+    },
+    {
+      "name": "ENABLE_MERGE_JOIN",
+      "type": "categorical",
+      "choices": [
+        0,
+        1
+      ],
+      "default": 1,
+      "weights": null
+    },
+    {
+      "name": "ENABLE_MONITOR",
+      "type": "categorical",
+      "choices": [
+        0,
+        1
+      ],
+      "default": 1,
+      "weights": null
+    },
+    {
+      "name": "ENHANCED_BEXP_TRANS_GEN",
+      "type": "categorical",
+      "choices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "default": 3,
+      "weights": null
+    },
+    {
+      "name": "FAST_POOL_PAGES",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 2800,
+      "upper": 4000,
+      "default": 3000,
+      "q": null
+    },
+    {
+      "name": "FAST_RELEASE_SLOCK",
+      "type": "categorical",
+      "choices": [
+        0,
+        1
+      ],
+      "default": 1,
+      "weights": null
+    },
+    {
+      "name": "FAST_ROLL_PAGES",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 800,
+      "upper": 2000,
+      "default": 1000,
+      "q": null
+    },
+    {
+      "name": "FIRST_ROWS",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 90,
+      "upper": 500,
+      "default": 100,
+      "q": null
+    },
+    {
+      "name": "FORCE_FLUSH_PAGES",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 0,
+      "upper": 1000,
+      "default": 8,
+      "q": null
+    },
+    {
+      "name": "GROUP_OPT_FLAG",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 0,
+      "upper": 63,
+      "default": 4,
+      "q": null
+    },
+    {
+      "name": "HAGR_BLK_SIZE",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 1,
+      "upper": 50,
+      "default": 2,
+      "q": null
+    },
+    {
+      "name": "HAGR_BUF_GLOBAL_SIZE",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 4800,
+      "upper": 10000,
+      "default": 5000,
+      "q": null
+    },
+    {
+      "name": "HAGR_BUF_SIZE",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 480,
+      "upper": 1000,
+      "default": 500,
+      "q": null
+    },
+    {
+      "name": "HASH_PLL_OPT_FLAG",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 0,
+      "upper": 63,
+      "default": 0,
+      "q": null
+    },
+    {
+      "name": "HIO_THR_GROUPS",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 1,
+      "upper": 64,
+      "default": 2,
+      "q": null
+    },
+    {
+      "name": "HJ_BUF_GLOBAL_SIZE",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 4800,
+      "upper": 50000,
+      "default": 5000,
+      "q": null
+    },
+    {
+      "name": "HJ_BUF_SIZE",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 800,
+      "upper": 5000,
+      "default": 1000,
+      "q": null
+    },
+    {
+      "name": "HUGE_BUFFER",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 80,
+      "upper": 500,
+      "default": 80,
+      "q": null
+    },
+    {
+      "name": "HUGE_BUFFER_POOLS",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 3,
+      "upper": 512,
+      "default": 4,
+      "q": null
+    },
+    {
+      "name": "HUGE_MEMORY_PERCENTAGE",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 45,
+      "upper": 100,
+      "default": 50,
+      "q": null
+    },
+    {
+      "name": "INDEX_SKIP_SCAN_RATE",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.0,
+      "upper": 1.0,
+      "default": 0.0025,
+      "q": null
+    },
+    {
+      "name": "IO_THR_GROUPS",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 1,
+      "upper": 64,
+      "default": 8,
+      "q": null
+    },
+    {
+      "name": "JOIN_HASH_SIZE",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 450000,
+      "upper": 5200000,
+      "default": 500000,
+      "q": null
+    },
+    {
+      "name": "LIKE_OPT_FLAG",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 0,
+      "upper": 127,
+      "default": 127,
+      "q": null
+    },
+    {
+      "name": "LOCK_DICT_OPT",
+      "type": "categorical",
+      "choices": [
+        0,
+        1,
+        2
+      ],
+      "default": 2,
+      "weights": null
+    },
+    {
+      "name": "MEMORY_EXTENT_SIZE",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 1,
+      "upper": 10,
+      "default": 1,
+      "q": null
+    },
+    {
+      "name": "MEMORY_POOL",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 450,
+      "upper": 5000,
+      "default": 500,
+      "q": null
+    },
+    {
+      "name": "MEMORY_TARGET",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 14000,
+      "upper": 20000,
+      "default": 15000,
+      "q": null
+    },
+    {
+      "name": "MSG_COMPRESS_TYPE",
+      "type": "categorical",
+      "choices": [
+        0,
+        1,
+        2
+      ],
+      "default": 2,
+      "weights": null
+    },
+    {
+      "name": "NBEXP_OPT_FLAG",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 0,
+      "upper": 7,
+      "default": 7,
+      "q": null
+    },
+    {
+      "name": "NONREFED_SUBQUERY_AS_CONST",
+      "type": "categorical",
+      "choices": [
+        0,
+        1
+      ],
+      "default": 0,
+      "weights": null
+    },
+    {
+      "name": "NOWAIT_WHEN_UNIQUE_CONFLICT",
+      "type": "categorical",
+      "choices": [
+        0,
+        1
+      ],
+      "default": 0,
+      "weights": null
+    },
+    {
+      "name": "OPTIMIZER_AGGR_GROUPBY_ELIM",
+      "type": "categorical",
+      "choices": [
+        0,
+        1
+      ],
+      "default": 1,
+      "weights": null
+    },
+    {
+      "name": "OUTER_CVT_INNER_PULL_UP_COND_FLAG",
+      "type": "categorical",
+      "choices": [
+        1,
+        2,
+        3
+      ],
+      "default": 3,
+      "weights": null
+    },
+    {
+      "name": "PARALLEL_PURGE_FLAG",
+      "type": "categorical",
+      "choices": [
+        0,
+        1
+      ],
+      "default": 0,
+      "weights": null
+    },
+    {
+      "name": "PHC_MODE_ENFORCE",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 0,
+      "upper": 15,
+      "default": 0,
+      "q": null
+    },
+    {
+      "name": "PSEG_RECV",
+      "type": "categorical",
+      "choices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "default": 3,
+      "weights": null
+    },
+    {
+      "name": "PURGE_DEL_OPT",
+      "type": "categorical",
+      "choices": [
+        0,
+        1,
+        2
+      ],
+      "default": 0,
+      "weights": null
+    },
+    {
+      "name": "PURGE_WAIT_TIME",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 0,
+      "upper": 1000,
+      "default": 500,
+      "q": null
+    },
+    {
+      "name": "RECYCLE",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 8,
+      "upper": 500,
+      "default": 300,
+      "q": null
+    },
+    {
+      "name": "RECYCLE_POOLS",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 15,
+      "upper": 100,
+      "default": 19,
+      "q": null
+    },
+    {
+      "name": "REFED_SUBQ_CROSS_FLAG",
+      "type": "categorical",
+      "choices": [
+        0,
+        1
+      ],
+      "default": 1,
+      "weights": null
+    },
+    {
+      "name": "RLOG_BUF_SIZE",
+      "type": "categorical",
+      "choices": [
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        256,
+        1024,
+        2048,
+        4096,
+        8192,
+        16384
+      ],
+      "default": 1024,
+      "weights": null
+    },
+    {
+      "name": "RLOG_PARALLEL_ENABLE",
+      "type": "categorical",
+      "choices": [
+        0,
+        1,
+        2
+      ],
+      "default": 0,
+      "weights": null
+    },
+    {
+      "name": "RLOG_POOL_SIZE",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 1,
+      "upper": 2048,
+      "default": 256,
+      "q": null
+    },
+    {
+      "name": "SESS_POOL_SIZE",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 32,
+      "upper": 1048576,
+      "default": 64,
+      "q": null
+    },
+    {
+      "name": "SESS_POOL_TARGET",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 10240,
+      "upper": 10485760,
+      "default": 16384,
+      "q": null
+    },
+    {
+      "name": "SORT_BUF_SIZE",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 1000,
+      "upper": 1500,
+      "default": 1000,
+      "q": null
+    },
+    {
+      "name": "SPEED_SEMI_JOIN_PLAN",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 0,
+      "upper": 31,
+      "default": 9,
+      "q": null
+    },
+    {
+      "name": "TRX_VIEW_SIZE",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 16,
+      "upper": 16384,
+      "default": 512,
+      "q": null
+    },
+    {
+      "name": "UNDO_EXTENT_NUM",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 3,
+      "upper": 1024,
+      "default": 4,
+      "q": null
+    },
+    {
+      "name": "UNDO_RETENTION",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 0,
+      "upper": 1000,
+      "default": 90,
+      "q": null
+    },
+    {
+      "name": "UPD_DEL_OPT",
+      "type": "categorical",
+      "choices": [
+        0,
+        2
+      ],
+      "default": 2,
+      "weights": null
+    },
+    {
+      "name": "VIEW_FILTER_MERGING",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 0,
+      "upper": 511,
+      "default": 138,
+      "q": null
+    },
+    {
+      "name": "VM_MEM_HEAP",
+      "type": "categorical",
+      "choices": [
+        0,
+        1,
+        2
+      ],
+      "default": 0,
+      "weights": null
+    },
+    {
+      "name": "VM_POOL_SIZE",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 32,
+      "upper": 1024,
+      "default": 64,
+      "q": null
+    },
+    {
+      "name": "VM_POOL_TARGET",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 10240,
+      "upper": 20480,
+      "default": 16384,
+      "q": null
+    },
+    {
+      "name": "WORKER_THREADS",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 1,
+      "upper": 64,
+      "default": 32,
+      "q": null
+    },
+    {
+      "name": "WORK_THRD_RESERVE_SIZE",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 200,
+      "upper": 300,
+      "default": 200,
+      "q": null
+    },
+    {
+      "name": "WORK_THRD_STACK_SIZE",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 1024,
+      "upper": 16384,
+      "default": 8192,
+      "q": null
+    }
+  ],
+  "conditions": [],
+  "forbiddens": [],
+  "python_module_version": "0.6.1",
+  "json_format_version": 0.4
+}

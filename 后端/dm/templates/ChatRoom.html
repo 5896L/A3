@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ChatRoom</title>
+    <style>
+       .message {
+           height: 300px;
+           border: 1px solid #dddddd;
+           width: 100%;
+           overflow-y: scroll; /* 添加垂直滚动条 */
+           padding: 10px; /* 添加内边距使内容不紧贴边缘 */
+           box-sizing: border-box; /* 包含边框和内边距在宽度和高度计算中 */
+       }
+    </style>
+</head>
+<body>
+<div class="message" id="message"></div>   <!-- 聊天池 -->
+<div>
+    <input type="text" placeholder="请输入" id="txt">
+    <input type="button" value="发送" onclick="sendMessage()">
+    <input type="button" value="关闭连接" onclick="closeConn()">
+</div>
+
+<script>
+    const socket = new WebSocket("ws://localhost:8000/room/123/");
+    // const socket = new WebSocket("ws://36.138.114.9:41000/room/123/");
+
+    // 创建好连接以后自动触发( 服务器执行 self.accept() )
+    socket.onopen = function (event) {
+        let tag = document.createElement("div");
+        tag.innerText = "[连接成功]";    // 创建好连接以后显示在聊天池
+        document.getElementById("message").appendChild(tag);
+    }
+
+    // 当websocket接收到服务端发来的消息时，自动触发这个函数
+    socket.onmessage = function (event) {
+        let tag = document.createElement("div");
+        tag.innerText = event.data;   // 收到消息后显示在聊天池
+        document.getElementById("message").appendChild(tag);
+        // 自动滚动到底部
+        const messageDiv = document.getElementById("message");
+        messageDiv.scrollTop = messageDiv.scrollHeight;
+    }
+
+    // 点击按钮以后给后端发送输入框的信息
+    function sendMessage(){
+        let tag = document.getElementById("txt");
+        socket.send(tag.value);
+        // 显示发送的消息
+        let tagDiv = document.createElement("div");
+        tagDiv.innerText = "你: " + tag.value;
+        document.getElementById("message").appendChild(tagDiv);
+        // 自动滚动到底部
+        const messageDiv = document.getElementById("message");
+        messageDiv.scrollTop = messageDiv.scrollHeight;
+        tag.value = ''; // 清空输入框
+    }
+
+    // 客户端主动断开连接
+    function closeConn(){
+        socket.close();
+    }
+
+    // 服务器主动断开连接时，这个方法会自动触发
+    socket.onclose = function (event) {
+        let tag = document.createElement("div");
+        tag.innerText = "[连接关闭]"; // 连接关闭时显示在聊天池
+        document.getElementById("message").appendChild(tag);
+    }
+</script>
+
+</body>
+</html>

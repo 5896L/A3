@@ -1,0 +1,71 @@
+{
+  "stats": {
+    "submitted": 2,
+    "finished": 2,
+    "running": 0
+  },
+  "data": [
+    [
+      1,
+      null,
+      209652396,
+      null,
+      -16768.79,
+      77.70368528366089,
+      1,
+      1723914719.9472497,
+      1723914797.6526837,
+      {}
+    ],
+    [
+      2,
+      null,
+      209652396,
+      null,
+      -13396.65,
+      92.84221339225769,
+      1,
+      1723914822.725372,
+      1723914915.572571,
+      {}
+    ]
+  ],
+  "configs": {
+    "1": {
+      "BUFFER": 8785,
+      "FAST_POOL_PAGES": 6664,
+      "FAST_ROLL_PAGES": 938,
+      "HAGR_BUF_GLOBAL_SIZE": 782,
+      "HAGR_BUF_SIZE": 127,
+      "HJ_BLK_SIZE": 31,
+      "HJ_BUF_GLOBAL_SIZE": 8959,
+      "HUGE_BUFFER": 490,
+      "MEMORY_POOL": 1358,
+      "MEMORY_TARGET": 4007,
+      "MVCC_RETRY_TIMES": 8,
+      "RECYCLE": 368,
+      "SORT_BUF_SIZE": 37,
+      "WORK_THRD_RESERVE_SIZE": 201
+    },
+    "2": {
+      "BUFFER": 8794,
+      "FAST_POOL_PAGES": 6658,
+      "FAST_ROLL_PAGES": 974,
+      "HAGR_BUF_GLOBAL_SIZE": 785,
+      "HAGR_BUF_SIZE": 111,
+      "HJ_BLK_SIZE": 34,
+      "HJ_BUF_GLOBAL_SIZE": 8947,
+      "HUGE_BUFFER": 484,
+      "MEMORY_POOL": 1353,
+      "MEMORY_TARGET": 4001,
+      "MVCC_RETRY_TIMES": 10,
+      "RECYCLE": 364,
+      "SORT_BUF_SIZE": 42,
+      "WORK_THRD_RESERVE_SIZE": 207
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Sobol",
+    "2": "Initial Design: Sobol"
+  }
+}
